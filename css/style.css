@@ -1,0 +1,1348 @@
+/**************************************************
+    common css part start
+****************************************************/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    top: 0;
+    background: #222;
+    width: 100%;
+    z-index: 9999;
+    border-bottom: 1px solid #00CA99;
+}
+
+/**************************************************
+    common css part end
+****************************************************/
+
+
+
+
+
+/**************************************************
+    header part start
+****************************************************/
+#header-part{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 202, 153, .5);
+}
+
+#header-part ul li a{
+    color: #00CA99;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Proza Libre', sans-serif;
+    transition: .4;
+    margin-left: 10px;
+    background: transparent;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+#header-part ul li .active{
+    color: #222;
+    background: #fff;
+    border-left: 2px solid #00CA99;
+    border-bottom: 2px solid #00CA99;
+}
+
+
+#header-part ul li a:hover{
+    color: #222;
+    background: #fff;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #00CA99;
+    border-bottom: 2px solid #00CA99;
+    
+}
+/**************************************************
+    header part end
+****************************************************/
+
+
+
+
+
+/**************************************************
+    banner part start
+****************************************************/
+#banner-part .banner{
+    background: url(../images/banner-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner-part .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    padding-top: 190px;
+    padding-bottom: 205px;
+}
+
+#banner-part .banner .overlay .img{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#banner-part .banner .overlay .img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 10px solid #00CA99;
+}
+
+#banner-part .banner .overlay .img .img-border{
+    width: 410px;
+    height: 410px;
+    background: #00CA99;
+}
+
+
+#banner-part ul{
+    position: absolute;
+    bottom: 10px;
+    right: 160px;
+}
+
+#banner-part ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#banner-part ul li button{
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 2px solid #00CA99;
+    outline: 0;
+    border-radius: 50%;
+    position: relative;
+}
+
+#banner-part ul .slick-active button{
+    background: #00CA99;
+}
+
+#banner-part .banner .overlay .text p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold; 
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+}
+
+#banner-part .banner .overlay .text h1{
+    color: #00CA99;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+
+#banner-part .banner .overlay .text .slide{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    color: #00CA99;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#banner-part .banner .overlay .text h4{
+    color: #00CA99;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Proza Libre', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#banner-part .banner .overlay .text a .left{
+    margin-left: 0;
+}
+
+#banner-part .banner .overlay .text a i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    transition: .4s;
+    margin-left: 5px;
+}
+
+#banner-part .banner .overlay .text a i:hover{
+    background: #00CA99;
+    border: 1px solid #00CA99;
+}
+
+#banner-part .banner .overlay .text .button{
+    padding-top: 30px;
+}
+
+#banner-part .banner .overlay .text .button a{
+    padding: 10px 20px;
+    background: #00CA99;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    transition: .4s;
+    border: 1px solid #00CA99;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#banner-part .banner .overlay .text .button .hire{
+    margin-left: 0;
+}
+
+#banner-part .banner .overlay .text .button .cv{
+    background: transparent;
+    border: 1px solid #fff;
+    transition: .4s;
+}
+
+#banner-part .banner .overlay .text .button .cv:hover{
+    background: #00CA99; 
+    border: 1px solid #74C400;    
+}
+
+#banner-part .banner .overlay .text .button a:hover{
+    border: 1px solid #fff;
+    background: transparent;
+    font-size: 16px;  
+}
+/**************************************************
+    banner part end
+****************************************************/
+
+
+
+
+
+
+
+
+/**************************************************
+    counter part start
+****************************************************/
+#counter-part .counter{
+    background: #f1f1f1;
+    margin-top: -70px;
+    padding: 15px 15px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#counter-part .counter .count{
+    text-align: center;
+    border-right: 2px solid #fff;
+    transition: .4;
+    color: #222;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+}
+
+
+#counter-part .counter .count:hover{
+    background: #00CA99;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-right: 0;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+
+#counter-part .counter .count-1{
+    border-right: 0;
+}
+
+#counter-part .counter .count i{
+    font-size: 30px;
+    color: #00CA99; 
+}
+
+#counter-part .counter .count:hover i{
+    color: #fff;
+}
+
+#counter-part .counter .count:hover h5{
+    color: #fff;
+}
+
+#counter-part .counter .count h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Proza Libre', sans-serif;
+    padding: 15px 0;
+    color: #222;
+}
+
+#counter-part .counter .count:hover p{
+    color: #fff;
+}
+
+#counter-part .counter .count p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+}
+/**************************************************
+    counter part end
+****************************************************/
+
+
+
+
+
+
+
+
+
+/**************************************************
+    about part start
+****************************************************/
+#about-part{
+    padding: 60px 0;
+}
+
+#about-part .section-heading h4{
+    font-size: 24px;
+    color: #222;
+    font-weight: 800;
+    font-family: 'Proza Libre', sans-serif;
+    position: relative;
+}
+
+#about-part .section-heading h4::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 3px;
+    background: #00CA99;
+    content: "";
+}
+
+#about-part .img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#about-part .img img{
+    width: 100%;
+    height: 500px;
+    border-top-right-radius: 250px;
+    border: 10px solid #f1f1f1;
+    border-right: 0; 
+}
+
+
+#about-part .text{
+    text-align: left;
+}
+
+#about-part .text h5{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif;
+    color: #00CA99;
+    padding-top: 30px;
+}
+
+#about-part .text h6{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    padding-top: 30px;
+}
+
+#about-part .text h6 span{
+    color: #00CA99;
+}
+
+#about-part .text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0;
+}
+
+#about-part .text img{
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#about-part .text a{
+    padding: 10px 20px;
+    background: #00CA99;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Proza Libre', sans-serif;
+    border-bottom-left-radius: 10px;
+    transition: .4s;
+}
+
+#about-part .text a:hover{
+    border: 1px solid #222;
+    background: transparent;
+    color: #222;
+}
+
+#about-part .text h3{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #222;
+}
+
+#about-part .text .skill{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-part .text .skill .circle-chart{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    color: #222;
+    font-weight: 600;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#about-part .text .skill .success-stroke{
+    stroke: #00CA99;
+}
+
+/**************************************************
+    about part end
+****************************************************/
+
+
+
+
+
+
+
+
+/**************************************************
+    services part start
+****************************************************/
+#services-part{
+    padding: 60px 0;
+}
+
+#services-part .section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#services-part .section-title h4{
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif;
+    position: relative;
+}
+
+#services-part .section-title h4::after{
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    background: #00CA99;
+    width: 140px;
+    height: 3px;
+    content: "";
+    transform: translateX(-50%);
+}
+
+#services-part .services{
+    width: 100%;
+    background: #f1f1f1;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    transition: .4;
+    margin-bottom: 30px;
+}
+
+#services-part .services:hover{
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#services-part .services i{
+    font-size: 60px;
+    color: #00CA99;
+    background: transparent;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom-left-radius: 10px;
+    transition: .4s;
+}
+
+#services-part .services:hover i{
+    background: #00CA99;
+    color: #fff;
+    font-size: 30px
+}
+
+#services-part .services h4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Proza Libre', sans-serif;
+    color: #222;
+    padding: 15px 0;
+}
+
+#services-part .services p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+}
+/**************************************************
+    services part end
+****************************************************/
+
+
+
+
+
+
+
+
+/**************************************************
+    Working system part start
+****************************************************/
+#working-system{
+    padding: 60px 0;
+    background: #00CA99;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#working-system h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#working-system p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444;
+    width: 300px;
+}
+
+#working-system .working{
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 15px;
+    transition: .4;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+}
+
+#working-system .working:hover{
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#working-system .working .icon{
+    display: flex; 
+}
+
+#working-system .working .icon i{
+    font-size: 30px;
+    color: #444;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    transition: .4;
+}
+
+#working-system .working:hover .icon i{
+    background: #f1f1f1;
+    font-size: 40px;
+    color: #444;
+}
+
+#working-system .working .icon h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+    font-family: 'Proza Libre', sans-serif;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#working-system .working .details h6{
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 400
+    font-family: 'Proza Libre', sans-serif;
+    color: #444;
+}
+
+#working-system .working .details p{
+    font-weight: 400
+    color: #444;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+}
+
+#working-system .working .number{
+    padding: 8px;
+    position: absolute;
+    right: 15px;
+    bottom: -25px;
+    background: #fff;
+    border-bottom-left-radius: 10px;
+    opacity: 0;
+    transition: .4;
+}
+
+#working-system .working:hover .number{
+    opacity: 1;
+}
+
+#working-system .working .number .no{
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif;
+}
+/**************************************************
+    Working system part end
+****************************************************/
+
+
+
+
+
+
+
+
+
+
+/**************************************************
+    Portfolio part start
+****************************************************/
+#portfoloi-part{
+    padding-top: 60px;
+}
+
+#portfoloi-part .section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#portfoloi-part .section-title h4{
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif;
+    position: relative;
+}
+
+#portfoloi-part .section-title h4::after{
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    background: #00CA99;
+    width: 160px;
+    height: 3px;
+    content: "";
+    transform: translateX(-50%);
+}
+
+#portfoloi-part .tab-menu{
+    display: flex;
+    justify-content: center;
+}
+
+#portfoloi-part .tab-menu .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #00CA99;
+    border-radius: 0;
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Proza Libre', sans-serif;
+    border-bottom-left-radius: 10px;
+    padding: 10px 20px;
+    border: 0;
+}
+
+#portfoloi-part .tab-menu .nav-pills .nav-link{
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Proza Libre', sans-serif;
+    border: 1px solid #222;
+    margin-right: 15px;
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+}
+
+#portfoloi-part .portfoloi{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#portfoloi-part .portfoloi .img{
+    width: 100%;
+    position: relative;
+}
+
+#portfoloi-part .portfoloi .img img{
+    width: 100%;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#portfoloi-part .portfoloi .img .overlay{
+    width: 94%;
+    height: 94%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: rgba(0, 0, 0, .8);
+    transform: scale(0);
+    transition: .4s;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+}
+
+#portfoloi-part .portfoloi:hover .img .overlay{
+    transform: scale(1);
+}
+
+#portfoloi-part .portfoloi:hover .img .overlay a i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    transition: .4s;
+    margin-left: 10px;
+    transition: .4;
+}
+
+
+#portfoloi-part .portfoloi:hover .img .overlay a i:hover{
+    background: #00CA99;
+    border: 1px solid #00CA99;
+}
+
+
+/**************************************************
+    Portfolio part end
+****************************************************/
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+/**************************************************
+    Pricing part end
+****************************************************/
+#pricing-part{
+    padding-bottom: 120px;
+}
+
+#pricing-part .section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#pricing-part .section-title h4{
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif;
+    position: relative;
+}
+
+#pricing-part .section-title h4::after{
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    background: #00CA99;
+    width: 90px;
+    height: 3px;
+    content: "";
+    transform: translateX(-50%);
+}
+
+#pricing-part .price{
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#pricing-part .price h2{
+    background: #f1f1f1;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .4s;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#pricing-part .price:hover h2{
+    background: #00CA99;
+    color: #fff;
+}
+
+#pricing-part .price p{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    margin: 15px auto;
+    font-size: 16px;
+    transition: .4s;: 
+}
+
+#pricing-part .price:hover p{
+    border: 1px solid #00CA99;
+}
+
+#pricing-part .price p span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#pricing-part .price p .zero{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#pricing-part .price p .hour{
+    display: block;
+}
+
+#pricing-part .price .offer{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background: #f1f1f1;
+    text-align: center;
+    position: relative;
+}
+
+#pricing-part .price .offer ul li{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+}
+
+#pricing-part .price .offer a{
+    padding: 10px 20px;
+    border: 1px solid #222;
+    color: #222;
+    font-weight: 600;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom-left-radius: 10px;
+    transition: .4s;
+}
+
+#pricing-part .price:hover .offer a{
+    background: #00CA99;
+    color: #fff;
+    border: 1px solid #00CA99;
+}
+/**************************************************
+    Pricing part end
+****************************************************/
+
+
+
+
+
+
+
+/**************************************************
+    video part start
+****************************************************/
+#video-part{
+    width: 100%;
+}
+
+#video-part .video{
+    width: 100%;
+    background: url(../images/video-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#video-part .video .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    padding: 130px 0;
+    color: #fff;
+    text-align: center;
+}
+
+#video-part .video .overlay a i{
+    font-size: 80px;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    line-height: 80px;
+    border-radius: 50%;
+    transition: .4s;
+    color: #fff;
+}
+
+#video-part .video .overlay a i:hover{
+    background: #00CA99;
+    font-size: 70px;
+    color: #fff;
+}
+
+/**************************************************
+    video part end
+****************************************************/
+
+
+
+
+
+
+
+
+
+/**************************************************
+    testimonial part start
+****************************************************/
+#testimonial-part{
+    padding: 60px 0;
+}
+
+#testimonial-part .section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#testimonial-part .section-title h4{
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif;
+    position: relative;
+}
+
+#testimonial-part .section-title h4::after{
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    background: #00CA99;
+    width: 150px;
+    height: 3px;
+    content: "";
+    transform: translateX(-50%);
+}
+
+
+
+#testimonial-part .testimonial{
+    width: 48%;
+    position: relative;
+    padding-top: 70px;
+    margin-left: 15px;
+}
+
+
+
+#testimonial-part .testimonial img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+#testimonial-part .testimonial .text-box{
+    padding: 0 30px;
+    padding-top: 70px;
+    background: #f1f1f1;
+    padding-bottom: 30px;
+}
+
+#testimonial-part .testimonial .text-box h4{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Proza Libre', sans-serif;
+    color: #222;
+}
+
+#testimonial-part .testimonial .text-box h5{
+    font-size: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#testimonial-part .testimonial .text-box i{
+    color: #00CA99;
+}
+
+#testimonial-part .testimonial .text-box p{
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#testimonial-part ul{
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#testimonial-part ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#testimonial-part ul li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #00CA99;
+    background: transparent;
+    outline: 0;
+    border-radius: 50%;
+    position: relative;
+}
+
+#testimonial-part ul .slick-active button{
+    background: #00CA99;
+}
+/**************************************************
+    testimonial part end
+****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************
+    Contact part end
+****************************************************/
+#contact-part{
+    padding: 60px 0;
+}
+
+#contact-part .section-title{
+    padding: 30px 0;
+}
+
+#contact-part .section-title h4{
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif;
+    position: relative;
+}
+
+#contact-part .section-title h4::after{
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    background: #00CA99;
+    width: 130px;
+    height: 3px;
+    content: "";
+}
+
+#contact-part .lebel{
+    margin-top: 30px;
+}
+
+#contact-part .lebel input{
+    width: 48%;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #222;
+    margin-bottom: 30px;
+}
+
+#contact-part .lebel .gap{
+    margin-left: 15px;
+}
+
+#contact-part .lebel textarea{
+    width: 100%;
+    padding-left: 15px;
+    height: 190px;
+    border: 1px solid #222;
+    padding-top: 15px;
+}
+
+#contact-part .lebel button{
+    padding: 10px 20px;
+    background: #00CA99;
+    border: 1px solid #00CA99;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom-left-radius: 10px;
+    transition: .4s;
+    margin-top: 15px;
+}
+
+#contact-part .lebel button:hover{
+    border: 1px solid #222;
+    background: transparent;
+    color: #222;
+}
+
+#contact-part .contact ul {
+    display: flex;
+}
+
+#contact-part .contact ul li{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact-part .contact ul li i{
+    width: 40px;
+    height: 40px;
+    background: #00CA99;
+    color: #222;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    margin-top: 3px;
+    border-bottom-left-radius: 10px;
+}
+
+#contact-part .contact ul .add{
+    width: 300px;
+    margin-left: 15px;
+}
+
+#contact-part .contact ul .mail{
+    width: 200px;
+    margin-left: 15px;
+}
+
+#contact-part .contact ul .phone{
+    width: 157px;
+    margin-left: 15px;
+}
+
+/**************************************************
+    Contact part end
+****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************
+    footer part start
+****************************************************/
+#footer-part{
+    padding: 60px 0;
+    background: #222;
+    border-bottom: 1px solid #fff;
+}
+
+#footer-part .footer{
+    text-align: center;
+    width: 100%;
+}
+
+#footer-part .footer a i{
+    width: 40px;
+    height: 40px;
+    background: #00CA99;
+    border: 1px solid #00CA99;
+    transition: .4s;
+    border-bottom-left-radius: 10px;
+    line-height: 40px;
+    color: #fff;
+}
+
+#footer-part .footer a i:hover{
+    background: transparent;
+    border: 1px solid #fff;
+}
+/**************************************************
+    footer part end
+****************************************************/
+
+
+
+
+
+
+
+/**************************************************
+    back to top part start
+****************************************************/
+.btop{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background: #00CA99;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    transition: .4s;
+    border-bottom-left-radius: 10px;
+}
+
+.btop:hover{
+    background: #222;
+    color: #fff;
+}
+/**************************************************
+    back to top part end
+****************************************************/
+
+
+
+
+
+
+/**************************************************
+    footer-bottom part end
+****************************************************/
+#footer-bottom{
+    background: #222;
+    padding: 15px;
+}
+
+#footer-bottom .bottom{
+    text-align: center;
+    color: #fff;
+}
+
+#footer-bottom .bottom p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer-bottom .bottom p a{
+    color: #00CA99;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Proza Libre', sans-serif;
+    transition: .4s;
+}
+
+#footer-bottom .bottom p a:hover{
+    color: #fff;
+}
+/**************************************************
+    footer-bottom part end
+****************************************************/

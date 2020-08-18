@@ -1,0 +1,473 @@
+/**************************************************
+    extra small device part start (320-575px)
+****************************************************/
+@media (min-width: 320px) and (max-width: 575px){
+/*    ****** header top part start **********/
+    
+    #header-part .fa{
+        color: #fff;
+        background: #00CA99;
+        padding: 10px;
+    }
+    
+    #header-part ul{
+        text-align: center;
+        background: #000;
+        z-index: 999;
+    }
+    
+    #header-part ul li a{
+        margin-bottom: 10px;
+    }
+/*    ****** header top part end ************/
+    
+    
+    
+/*    ****** banner part start ***************/
+    #banner-part .banner .overlay .text h1{
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay .text .slide{
+        font-size: 11px;
+    }
+    
+    #banner-part .banner .overlay .text p{
+        font-size: 13px;
+    }
+    
+    #banner-part .banner .overlay .text a i{
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+    }
+    
+    #banner-part .banner .overlay .img img{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    
+    #banner-part ul{
+        right: 110px;
+    }
+/*    ****** banner part end *****************/
+    
+    
+    
+/*    ****** counter part start *****************/
+    #counter-part .row{
+        flex-direction: column;
+    }
+    
+    #counter-part .counter .count{
+        margin-bottom: 15px;
+    }
+/*    ****** counter part end *******************/
+    
+    
+    
+    
+/*    ****** about part start *******************/
+    #about-part .text .skill .circle-chart{
+        width: 90px;
+        height: 90px;
+    }
+/*    ****** about part end *********************/
+    
+    
+    
+    
+/*    ****** portfolio part start *******************/
+    #portfoloi-part .tab-menu .nav-pills .nav-link{
+        margin-bottom: 15px;
+        margin-right: 14px;
+    }
+/*    ****** portfolio part end *********************/
+    
+    
+    
+    
+/*    ****** contact part start *****************/
+    #contact-part .lebel input{
+        width: 100%;
+    }
+    
+    #contact-part .lebel .gap{
+        margin-left: 0;
+    }
+    
+/*    ****** contact part end *******************/
+    
+    
+    
+/*    ****** footer part start*******************/
+    #footer-part .footer a i{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    
+    
+    #footer-bottom .bottom p a{
+        font-size: 13px;
+    }
+/*    ****** footer part end *******************/
+    
+    
+}
+/**************************************************
+    extra small device part end (320px 575px)
+****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************
+    small device part start (576-767px)
+****************************************************/
+@media (min-width: 576px) and (max-width: 767px){
+/*    ****** header top part start **********/
+    
+    #header-part .fa{
+        color: #fff;
+        background: #00CA99;
+        padding: 10px;
+    }
+    
+    #header-part ul{
+        text-align: center;
+        background: #000;
+        z-index: 999;
+    }
+    
+    #header-part ul li a{
+        margin-bottom: 10px;
+    }
+/*    ****** header top part end ************/
+    
+    
+    
+/*    ****** banner part start ***************/
+    #banner-part .banner .overlay .text h1{
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay .img{
+        justify-content: center;
+    }
+    
+    #banner-part .banner .overlay .text .slide{
+        font-size: 11px;
+    }
+    
+    #banner-part .banner .overlay .text p{
+        font-size: 13px;
+    }
+    
+    #banner-part .banner .overlay .text a i{
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+    }
+    
+    #banner-part .banner .overlay .img img{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    
+    #banner-part ul{
+        right: 215px;
+    }
+/*    ****** banner part end *****************/
+    
+    
+    
+/*    ****** counter part start *****************/
+    #counter-part .row{
+        flex-direction: column;
+    }
+    
+    #counter-part .counter .count{
+        margin-bottom: 15px;
+    }
+/*    ****** counter part end *******************/
+    
+    
+    
+    
+/*    ****** about part start *******************/
+    #about-part .text .skill .circle-chart{
+        width: 90px;
+        height: 90px;
+    }
+/*    ****** about part end *********************/
+    
+    
+    
+    
+/*    ****** portfolio part start *******************/
+    #portfoloi-part .tab-menu .nav-pills .nav-link{
+        margin-right: 10px;
+        font-size: 13px;     
+    }
+/*    ****** portfolio part end *********************/
+    
+    
+    
+    
+/*    ****** contact part start *****************/
+    #contact-part .lebel input{
+        width: 100%;
+    }
+    
+    #contact-part .lebel .gap{
+        margin-left: 0;
+    }
+    
+/*    ****** contact part end *******************/
+    
+  
+    
+}
+/**************************************************
+    small device part end (576px 767px)
+****************************************************/
+
+
+
+
+
+/**************************************************
+    medium device part start (768-991px)
+****************************************************/
+@media (min-width: 768px) and (max-width: 991px){
+/*    ****** header top part start **********/
+    
+    #header-part .fa{
+        color: #fff;
+        background: #00CA99;
+        padding: 10px;
+    }
+    
+    #header-part ul{
+        text-align: center;
+        background: #000;
+        z-index: 999;
+    }
+    
+    #header-part ul li a{
+        margin-bottom: 10px;
+    }
+/*    ****** header top part end ************/
+    
+    
+    
+/*    ****** banner part start ***************/
+    #banner-part .banner .overlay .text h1{
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay .img{
+        justify-content: center;
+    }
+    
+    #banner-part .banner .overlay .text .slide{
+        font-size: 11px;
+    }
+    
+    #banner-part .banner .overlay .text p{
+        font-size: 13px;
+    }
+    
+    #banner-part .banner .overlay .text a i{
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+    }
+    
+    #banner-part .banner .overlay .img img{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    
+    #banner-part ul{
+        right: 300px;
+    }
+/*    ****** banner part end *****************/
+    
+    
+    
+/*    ****** counter part start *****************/
+    #counter-part .row{
+        flex-direction: column;
+    }
+    
+    #counter-part .counter .count{
+        margin-bottom: 15px;
+    }
+/*    ****** counter part end *******************/
+    
+    
+    
+    
+/*    ****** about part start *******************/
+    #about-part .text .skill .circle-chart{
+        width: 90px;
+        height: 90px;
+    }
+/*    ****** about part end *********************/
+    
+    
+    
+/*    ****** services part start ********************/
+    #services-part .services h4{
+        font-size: 14px;
+    }
+/*    ****** services part end *********************/
+    
+    
+    
+    
+/*    ****** portfolio part start *******************/
+    #portfoloi-part .tab-menu .nav-pills .nav-link{
+        margin-right: 10px;
+        font-size: 13px;     
+    }
+/*    ****** portfolio part end *********************/
+    
+    
+    
+    
+/*    ****** contact part start *****************/
+    #contact-part .lebel input{
+        width: 100%;
+    }
+    
+    #contact-part .lebel .gap{
+        margin-left: 0;
+    }
+    
+/*    ****** contact part end *******************/
+    
+  
+    
+}
+/**************************************************
+    medium device part end (576px 767px)
+****************************************************/
+
+
+
+
+
+/**************************************************
+    medium device part start (992-1199px)
+****************************************************/
+@media (min-width: 992px) and (max-width: 1199px){
+/*    ****** header top part start **********/
+    
+    #header-part .fa{
+        color: #fff;
+        background: #00CA99;
+        padding: 10px;
+    }
+    
+    
+/*    ****** header top part end ************/
+    
+    
+    
+/*    ****** banner part start ***************/
+    #banner-part .banner .overlay .text h1{
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay .img{
+        justify-content: center;
+    }
+    
+    #banner-part .banner .overlay .text .slide{
+        font-size: 11px;
+    }
+    
+    #banner-part .banner .overlay .text p{
+        font-size: 13px;
+    }
+    
+    #banner-part .banner .overlay .text a i{
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+    }
+    
+    #banner-part .banner .overlay .img img{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    
+    #banner-part ul{
+        right: 180px;
+    }
+/*    ****** banner part end *****************/
+    
+    
+    
+  
+    
+/*    ****** about part start *******************/
+    #about-part .text .skill .circle-chart{
+        width: 90px;
+        height: 90px;
+    }
+/*    ****** about part end *********************/
+    
+    
+    
+/*    ****** services part start ********************/
+    #services-part .services h4{
+        font-size: 14px;
+    }
+/*    ****** services part end *********************/
+    
+    
+     
+    
+/*    ****** pricing part start *******************/
+    #pricing-part .price .offer a{
+        font-size: 14px;
+    }
+/*    ****** pricing part end *********************/
+    
+    
+    
+    
+/*    ****** contact part start *****************/
+    #contact-part .lebel input{
+        width: 100%;
+    }
+    
+    #contact-part .lebel .gap{
+        margin-left: 0;
+    }
+    
+/*    ****** contact part end *******************/
+    
+  
+    
+}
+/**************************************************
+    medium device part end (992px 1199px)
+****************************************************/
